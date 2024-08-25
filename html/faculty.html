@@ -89,6 +89,10 @@
     </div>
     <div class="line"></div>
     <form id="facultyForm">
+      <div class="class-dt">
+        <p>Enter Faculty Id</p>
+        <input type="text" id="sname" placeholder="e.g* 101, 102, etc.." autocomplete="off">
+      </div>
       <div class="name-part">
         <p>Enter name</p>
         <div class="cn">
@@ -99,26 +103,32 @@
           <input type="text" id="sname" placeholder="Enter name" autocomplete="off">
         </div>
       </div>
-      <div class="tk-subject">
-        <p>Enter name of subject</p>
-        <input type="text" id="sname" placeholder="e.g* C#, SEO">
+      <div class="faculty-dt">
+        <p>Select Semester</p>
+        <select class="nm-designation">
+          <option value="">1</option>
+          <option value="">2</option>
+          <option value="">3</option>
+          <option value="">4</option>
+          <option value="">5</option>
+          <option value="">6</option>
+        </select>
       </div>
       <div class="faculty-dt">
-        <p>Enter Field of Faculty</p>
-        <input type="text" id="sname" placeholder="e.g* Faculty of Science">
-      </div>
-
-      <div class="class-dt">
-        <p>Enter class names</p>
-        <input type="text" id="sname" placeholder="e.g* A4, B4">
+        <p>Enter Designation</p>
+        <select class="nm-designation">
+          <option value="">Professor</option>
+          <option value="">Associate Professor</option>
+          <option value="">Assistant Professor</option>
+        </select>
       </div>
       <div class="num-class-dt">
-        <p>Enter number of class</p>
-        <input type="text" id="sname" placeholder="e.g* 1, 2">
+        <p>Enter Contact No</p>
+        <input type="text" id="sname" placeholder="e.g* 1234567890" autocomplete="off">
       </div>
       <div class="dept-name">
-        <p>Enter name of the department</p>
-        <input type="text" id="sname" placeholder="e.g* CS & IT">
+        <p>Enter email-id</p>
+        <input type="text" id="sname" placeholder="e.g* demo@gmail.com" autocomplete="off">
       </div>
       <div class="add-form-btn">
         <button type="button">Add Faculty</button>
