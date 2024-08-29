@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/navbar.css">
-  <link rel="stylesheet" href="/css/faculty.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/faculty.css">
   <title>Document</title>
 </head>
 <body>
-  <div id="navbar"></div>
+<?php include 'navbar.php'; ?>
 
   <div class="over-form">
     <div class="title">
@@ -61,6 +61,6 @@
   </div>
 
 
-  <script src="/js/gen.js"></script>
+  <script src="js/gen.js"></script>
 </body>
 </html>

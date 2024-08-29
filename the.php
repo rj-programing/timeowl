@@ -6,8 +6,8 @@
   <title>Document</title>
 </head>
 <body>
-  <div id="navbar"></div>
+  <?php include 'navbar.php'; ?>
 
-  <script src="/js/the.js"></script>
+  <script src="js/the.js"></script>
 </body>
 </html>

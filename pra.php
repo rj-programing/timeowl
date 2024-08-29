@@ -8,9 +8,9 @@
 </head>
 
 <body>
-  <div id="navbar"></div>
+<?php include 'navbar.php'; ?>
 
-  <script src="/js/pra.js"></script>
+  <script src="js/pra.js"></script>
 </body>
 
 </html>

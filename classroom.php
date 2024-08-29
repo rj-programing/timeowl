@@ -5,13 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="/css/navbar.css">
-  <link rel="stylesheet" href="/css/faculty.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/faculty.css">
   <title>Document</title>
 </head>
 
 <body>
-  <div id="navbar"></div>
+<?php include 'navbar.php'; ?>
 
   <div class="over-form">
     <div class="title">
@@ -34,7 +34,7 @@
   </div>
 
 
-  <script src="/js/classroom.js"></script>
+  <script src="js/classroom.js"></script>
 </body>
 
 </html>

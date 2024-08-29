@@ -5,18 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="/css/navbar.css">
-  <link rel="stylesheet" href="/css/faculty.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/faculty.css">
   <title>Faculty Details</title>
 </head>
 
 <body>
-  <div id="navbar"></div>
+<?php include 'navbar.php'; ?>
   <div class="container">
     <!-- Card 1 -->
     <div class="card">
       <div class="img-section">
-        <img src="/assets/male.png" alt="Faculty Image">
+        <img src="assets/male.png" alt="Faculty Image">
       </div>
       <div class="name-sub-area">
         <p>Dr. Owl TimeTable</p>
@@ -38,7 +38,7 @@
 
     <div class="card">
       <div class="img-section">
-        <img src="/assets/male.png" alt="Faculty Image">
+        <img src="assets/male.png" alt="Faculty Image">
       </div>
       <div class="name-sub-area">
         <p>Dr. Owl TimeTable</p>
@@ -60,7 +60,7 @@
 
     <div class="card">
       <div class="img-section">
-        <img src="/assets/male.png" alt="Faculty Image">
+        <img src="assets/male.png" alt="Faculty Image">
       </div>
       <div class="name-sub-area">
         <p>Dr. Owl TimeTable</p>
@@ -140,7 +140,8 @@
     <button id="add-faculty-btn"><i class="bi bi-person-plus-fill"></i>Add Faculty</button>
   </div>
 
-  <script src="/js/faculty.js"></script>
+  <script src="js/faculty.js"></script>
+
 </body>
 
 </html>

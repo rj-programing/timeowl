@@ -1,9 +1,3 @@
-fetch("./navbar.html")
-  .then(response => response.text())
-  .then(data => {
-    document.getElementById("navbar").innerHTML = data;
-  });
-
 document.querySelectorAll('.view-more-btn').forEach(button => {
   button.addEventListener('click', function() {
     const card = this.closest('.card');

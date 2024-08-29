@@ -1,9 +1,3 @@
-fetch("./navbar.html")
-  .then(response => response.text())
-  .then(data => {
-    document.getElementById("navbar").innerHTML = data;
-  });
-
 document.querySelectorAll('.view-more-btn').forEach(button => {
   button.addEventListener('click', function() {
     const card = this.closest('.card');
@@ -33,3 +27,5 @@ document.querySelector('.add-form-btn button').addEventListener('click', functio
 document.querySelector('.add-form-btn').addEventListener('click', () => {
   document.querySelector('.add-btn').style.display = 'block';
 })
+
+ // To check the current path
