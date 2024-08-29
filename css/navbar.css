@@ -55,6 +55,13 @@ body {
   font-size: 18px;
   font-weight: bold;
   margin: 0 20px;
+  transition: 0.3s linear;
+}
+
+.nav .nav-menus a:hover {
+  transition: 0.3s linear;
+  opacity: 0.5;
+  cursor: pointer;
 }
 
 .nav .profile-side {
